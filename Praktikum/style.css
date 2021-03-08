@@ -1,0 +1,35 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: cornsilk;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #ffe6c9;
+    border: 2px solid #FFE6C9;
+}
+
+h1{
+    margin: 0px;
+}
+
+.navigation{
+    float:right;
+}
+
+.absatz strong{
+    font-family: "American Typewriter", serif;
+}
+
+p{
+    line-height: 140%;
+}
+
+img, div.container{
+    width: 50vw;
+}
