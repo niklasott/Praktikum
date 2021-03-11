@@ -1,0 +1,39 @@
+/*
+    Features Seite
+ */
+
+.features{
+  padding-bottom: 50px;
+  padding-top: 100px;
+  background-color: #e6dbe1;
+  font-weight: lighter;
+}
+
+.feature-icon{
+  width: 70px;
+  height: 60px;
+  background-color: #222020;
+  border-radius: 35px;
+  opacity: 80%;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  float: left;
+  transition: all 1s;
+}
+
+.feature-icon:hover{
+  transform: rotate(360deg);
+}
+
+
+.feature-text{
+  margin-left: 90px;
+  font-size: 90%;
+}
+
+.feature-text h5{
+  margin-bottom: 10px;
+  font-size: 110%;
+}

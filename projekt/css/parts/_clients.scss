@@ -1,0 +1,123 @@
+/*
+    Clients Seite
+ */
+
+.clients{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e6dbe1;
+  font-weight: lighter;
+}
+
+.clients-heading{
+  font-weight: lighter;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.clients-subheading {
+  text-align: center;
+}
+
+.client-picture{
+  width: 100%;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+
+.client-quote{
+  background-color: #e7dee4;
+  border: 1px solid #9d9b98;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 100;
+  position: relative;
+  margin-top: 15px;
+}
+
+.client-quote p{
+  margin-bottom: 5px;
+}
+
+.client-author{
+  font-size: 80%;
+  color: #d89c9e;
+  font-weight: normal;
+}
+
+.client-quote::before{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -28px;
+  top:50%;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #9d9b98;
+}
+
+.client-quote::after{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -26px;
+  top:50%;
+  margin-top: -13px;
+  border: 13px solid transparent;
+  border-right: 13px solid #e7dee4;
+}
+
+.client-quote-left{
+  background-color: #e7dee4;
+  border: 1px solid #9d9b98;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 100;
+  position: relative;
+  margin-top: 15px;
+}
+
+.client-quote-left p{
+  margin-bottom: 5px;
+}
+
+
+.client-quote-left::before{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: -28px;
+  top:50%;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-left: 14px solid #9d9b98;
+}
+
+.client-quote-left::after{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: -26px;
+  top:50%;
+  margin-top: -13px;
+  border: 13px solid transparent;
+  border-left: 13px solid #e7dee4;
+}
