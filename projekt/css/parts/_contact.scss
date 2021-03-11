@@ -1,0 +1,60 @@
+/*
+    Contact Seite
+ */
+
+.contact{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #ab879a;
+  font-weight: lighter;
+  color: whitesmoke;
+  text-shadow: white;
+}
+
+.contact h1{
+  margin-bottom: 10px;
+}
+
+.contact-ways{
+  padding-top: 30px;
+  list-style-type: none;
+}
+
+.contact-ways li{
+  width: 50%;
+  float: left;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+.contact-ways li .fa{
+  font-size: 120%;
+}
+
+.contact-icon{
+  display: inline-block;
+  width: 25px;
+  height: 35px;
+}
+
+.contact-input{
+  width: 100%;
+  color: #888888;
+  margin-bottom: 25px;
+}
+
+.contact-input:focus,
+input.contact-input:focus{
+  border: 1px solid black;
+  background-color: #e5dede;
+  transition: background-color 0.5s;
+}
+
+.contact textarea{
+  height: 150px;
+}
+
+input.contact-submit[type="submit"]{
+  background-color: white;
+}
